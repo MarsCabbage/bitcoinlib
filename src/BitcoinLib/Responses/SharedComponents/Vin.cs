@@ -11,7 +11,7 @@ namespace BitcoinLib.Responses.SharedComponents
         public string Vout { get; set; }
         public ScriptSig ScriptSig { get; set; }
         public string CoinBase { get; set; }
-        public string Sequence { get; set; }
+        public uint Sequence { get; set; }
         public List<string> TXinWitness { get; set; }
     }
 
