@@ -55,6 +55,7 @@ namespace BitcoinLib.Responses
         public List<Vin> Vin { get; set; }
         public List<Vout> Vout { get; set; }
         public string TxId { get; set; }
+        public string Hash { get; set; }
         public int Size { get; set; }
         public int VSize { get; set; }
         public int Weight { get; set; }
